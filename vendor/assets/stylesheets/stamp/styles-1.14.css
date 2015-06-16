@@ -494,7 +494,7 @@ strong,
    3.1 SECTION: HOME / HEADER         
 -----------------------------------------*/
 .header {
-	background: url(/stampimg/background-images/bay_view_med.jpg) no-repeat center top fixed;
+	background: image-url("dock.jpg") no-repeat center top fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }

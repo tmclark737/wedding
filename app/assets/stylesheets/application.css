@@ -9,9 +9,9 @@
  *= require stamp/owl.carousel
  *= require stamp/nivo-lightbox
  *= require stamp/nivo_themes/default/default
- *= require stamp/styles-1.12
+ *= require stamp/styles-1.14
  *= require stamp/responsive
- *= require stamp/colors/blue-1.01
+ *= require stamp/colors/blue-1.02
 
  *= require_self
  *= require_tree .
