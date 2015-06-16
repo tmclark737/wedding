@@ -1770,7 +1770,6 @@ TO CHANGE RESPONSIVE FIXES, PELEASE CHECK css/responsive.css
 TO CHANGE PRE_DEFINED COLORS. PLEASE CHECK css/colors/your_selected_color.css
 
 -----------------------------------------*/
-
 /* --------------------------------------
 =========================================
    1. GLOBAL STYLES
@@ -1779,133 +1778,143 @@ TO CHANGE PRE_DEFINED COLORS. PLEASE CHECK css/colors/your_selected_color.css
 /*---------------------------------------
    1.1 GENERAL STYLES                
 -----------------------------------------*/
-
+/* line 72, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 html {
-	font-size: 100%;
+  font-size: 100%;
 }
 
+/* line 76, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 body {
-	font-family: 'Open Sans', Helvetica Neue, Sans-serif;
-	font-size: 16px;
-	line-height: 28px;
-	font-weight: 300;
-	color: #313131;
-	text-align: center;
-	overflow-x: hidden !important;
-	margin: auto !important;
+  font-family: 'Open Sans', Helvetica Neue, Sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #313131;
+  text-align: center;
+  overflow-x: hidden !important;
+  margin: auto !important;
 }
 
 /*---------------------------------------
    1.2 PRE-LOADER              
 -----------------------------------------*/
+/* line 90, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .preloader {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #fefefe;
-	z-index: 99999;
-	height: 100%;
-	width: 100%;
-	overflow: hidden !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fefefe;
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+  overflow: hidden !important;
 }
 
+/* line 103, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .status {
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -20px 0 0 -20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -20px 0 0 -20px;
 }
 
 /*---------------------------------------
    2.3 ANCHOR AND BOLD TEXT           
 -----------------------------------------*/
+/* line 115, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 a {
-	text-decoration: none;
-	-webkit-transition: all ease 0.25s;
-	transition: all ease 0.25s;
+  text-decoration: none;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
 }
 
+/* line 121, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*---------------------------------------
    1.4 MISC FIXES         
 -----------------------------------------*/
 @-webkit-viewport {
-	width: device-width;
+  width: device-width;
 }
-
 @-moz-viewport {
-	width: device-width;
+  width: device-width;
 }
-
 @-ms-viewport {
-	width: device-width;
+  width: device-width;
 }
-
 @-o-viewport {
-	width: device-width;
+  width: device-width;
 }
-
 @viewport {
-	width: device-width;
+  width: device-width;
 }
-
+/* line 148, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+/* line 156, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 ul,
 ol {
-	padding-left: 0 !important;
+  padding-left: 0 !important;
 }
 
+/* line 161, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 li {
-	list-style: none;
+  list-style: none;
 }
 
+/* line 165, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .row.no-gutters[class^="col-"],
 .row.no-gutters[class*=" col-"] {
-	padding-right: 0;
-	padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
+/* line 171, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .navbar-inverse .navbar-nav > li > a {
-	color: inherit;
+  color: inherit;
 }
 
+/* line 175, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .nav > li > a {
-	padding: inherit;
+  padding: inherit;
 }
 
+/* line 179, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .navbar-nav.navbar-right:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
 
+/* line 183, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .navbar-inverse .navbar-nav > li > a:focus {
-	color: inherit;
+  color: inherit;
 }
 
+/* line 187, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .mailchimp-success,
 .mailchimp-error,
 .email-success,
 .email-error {
-	display: none;
-	margin-top: 15px;
+  display: none;
+  margin-top: 15px;
 }
 
+/* line 195, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .mailchimp-success span,
 .mailchimp-error span,
 .email-success span,
 .email-error span {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* --------------------------------------
@@ -1917,280 +1926,325 @@ li {
    2.1 TYPOGRAPHY      
 -----------------------------------------*/
 /* HEADINGS */
+/* line 211, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 h1,
 h2 {
-	font-family: 'Cabin', Helvetica Neue, Sans-serif;
-	font-weight: 400;
+  font-family: 'Cabin', Helvetica Neue, Sans-serif;
+  font-weight: 400;
 }
 
+/* line 217, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 h1 {
-	font-size: 3.75rem;
-	line-height: 5rem;
+  font-size: 3.75rem;
+  line-height: 5rem;
 }
 
+/* line 222, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 h2 {
-	font-size: 2.4rem;
-	line-height: 3.125rem;
+  font-size: 2.4rem;
+  line-height: 3.125rem;
 }
 
+/* line 227, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 h2 strong {
-	color: #272727;
+  color: #272727;
 }
 
+/* line 231, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 h3 {
-	font-size: 1.5rem;
-	line-height: 2.375rem;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
 }
 
+/* line 236, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 h4 {
-	font-size: 1.25rem;
-	line-height: 1.875rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
+/* line 241, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 h5 {
-	font-size: 18px;
-	line-height: 28px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 /* BUTTONS */
+/* line 247, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .standard-button {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 /* OTHER TEXTS */
+/* line 252, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 strong,
 .strong {
-	font-weight: 600;
+  font-weight: 600;
 }
 
+/* line 257, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .dark-text {
-	color: #454545;
+  color: #454545;
 }
 
+/* line 261, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .transparent-text {
-	color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
+/* line 265, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .transparent-text-dark {
-	color: rgba(49, 49, 49, 0.5);
+  color: rgba(49, 49, 49, 0.5);
 }
 
+/* line 269, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .small-text {
-	font-size: 14px;
+  font-size: 14px;
 }
 
+/* line 273, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .small-text-medium {
-	font-size: 14px;
-	font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
 }
 
+/* line 278, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .uppercase {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
+/* line 282, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .line-through {
-	text-decoration: line-through;
+  text-decoration: line-through;
 }
 
+/* line 286, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .button-text {
-	font-weight: 600;
-	text-transform: uppercase;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
+/* line 291, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .price .month {
-	font-family: 'Open Sans', Helvetica Neue, Sans-serif;
-	color: #666666;
-	font-size: 16px !important;
+  font-family: 'Open Sans', Helvetica Neue, Sans-serif;
+  color: #666666;
+  font-size: 16px !important;
 }
 
 /*---------------------------------------
    2.2 BUTTONS       
 -----------------------------------------*/
+/* line 300, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .standard-button {
-	border-radius: 3px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 16px;
-	line-height: 1.6;
-	border: none;
-	padding: 18px 40px 18px 40px;
-	color: #ffffff;
-	-webkit-transition: none;
-	transition: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 1.6;
+  border: none;
+  padding: 18px 40px 18px 40px;
+  color: #ffffff;
+  -webkit-transition: none;
+  transition: none;
 }
 
+/* line 313, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .secondary-button {
-	border-radius: 3px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 14px;
-	line-height: 1.6;
-	border: none;
-	background: transparent;
-	padding: 20px 35px 20px 35px;
-	color: #ffffff;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-color: rgba(255, 255, 255, 0.5);
-	-webkit-transition: none;
-	transition: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.6;
+  border: none;
+  background: transparent;
+  padding: 20px 35px 20px 35px;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: none;
+  transition: none;
 }
 
+/* line 329, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .secondary-button:hover {
-	background: transparent;
-	border-color: #ffffff;
+  background: transparent;
+  border-color: #ffffff;
 }
 
+/* line 334, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .secondary-button-dark {
-	border-radius: 3px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 14px;
-	line-height: 1.6;
-	border: none;
-	background: transparent;
-	padding: 20px 35px 20px 35px;
-	color: #272727;
-	border-color: rgba(39, 39, 39, 0.5);
-	-webkit-transition: none;
-	transition: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.6;
+  border: none;
+  background: transparent;
+  padding: 20px 35px 20px 35px;
+  color: #272727;
+  border-color: rgba(39, 39, 39, 0.5);
+  -webkit-transition: none;
+  transition: none;
 }
 
+/* line 349, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .secondary-button-dark:hover {
-	background: transparent;
-	border-color: #272727;
-	color: #272727;
+  background: transparent;
+  border-color: #272727;
+  color: #272727;
 }
 
+/* line 355, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .navbar-register-button {
-	border: none;
-	font-weight: 500;
-	text-transform: uppercase;
-	color: #ffffff !important;
-	-webkit-transition: none;
-	transition: none;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  -webkit-transition: none;
+  transition: none;
 }
 
 /*---------------------------------------
    2.3 BORDER AND LINE       
 -----------------------------------------*/
+/* line 367, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .border-right {
-	border-right: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
 }
 
+/* line 371, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .border-left {
-	border-left: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
 }
 
+/* line 375, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .colored-line-left,
 .colored-line-right,
 .colored-line,
 .white-line,
 .grey-line {
-	height: 2px;
-	width: 80px;
-	display: block;
+  height: 2px;
+  width: 80px;
+  display: block;
 }
 
+/* line 385, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .white-line {
-	background: #ffffff;
-	margin: auto;
+  background: #ffffff;
+  margin: auto;
 }
 
+/* line 390, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .grey-line {
-	background: #eaebec;
+  background: #eaebec;
 }
 
+/* line 394, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .grey-line-short {
-	height: 2px;
-	width: 40px;
-	display: block;
-	background: #eaebec;
+  height: 2px;
+  width: 40px;
+  display: block;
+  background: #eaebec;
 }
 
+/* line 401, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .white-text {
-	color: #ffffff;
+  color: #ffffff;
 }
 
+/* line 405, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .white-bg-border {
-	background: #ffffff;
-	border-top: 1px solid #eaebec;
-	border-bottom: 1px solid #eaebec;
+  background: #ffffff;
+  border-top: 1px solid #eaebec;
+  border-bottom: 1px solid #eaebec;
 }
 
+/* line 411, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .white-bg {
-	background: #ffffff;
+  background: #ffffff;
 }
 
+/* line 415, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .grey-bg {
-	border-top: 1px solid #eaebec;
-	border-bottom: 1px solid #eaebec;
-	background: #F7F8FA;
+  border-top: 1px solid #eaebec;
+  border-bottom: 1px solid #eaebec;
+  background: #F7F8FA;
 }
 
+/* line 421, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .dark-bg {
-	background: #2e3336;
+  background: #2e3336;
 }
 
+/* line 425, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .colored-line-left {
-	float: left;
+  float: left;
 }
 
+/* line 429, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .colored-line-right {
-	float: right;
+  float: right;
 }
 
+/* line 433, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .colored-line {
-	margin: auto;
+  margin: auto;
 }
 
 /*---------------------------------------
    2.4 SECTION HEADERS       
 -----------------------------------------*/
+/* line 440, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .section-header {
-	margin-top: 90px;
-	margin-bottom: 60px;
+  margin-top: 90px;
+  margin-bottom: 60px;
 }
 
+/* line 445, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .section-header h2 {
-	margin-bottom: 20px;
-	margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
+/* line 450, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sub-heading {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 /*---------------------------------------
    2.5 FORM ELEMENTS       
 -----------------------------------------*/
+/* line 457, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .input-box,
 .textarea-box {
-	margin-bottom: 15px;
-	margin-top: 15px;
-	outline: 0;
-	border: 0;
-	box-shadow: none;
-	border: 1px solid #dedede;
-	border-radius: 3px;
-	color: #999999;
-	padding-left: 21px;
-	line-height: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  color: #999999;
+  padding-left: 21px;
+  line-height: auto;
 }
 
+/* line 472, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .input-box {
-	min-height: 50px;
+  min-height: 50px;
 }
 
+/* line 476, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .textarea-box {
-	padding-top: 15px;
+  padding-top: 15px;
 }
 
+/* line 480, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .input-box:active,
 .textarea-box:active,
 .input-box:focus,
 .textarea-box:focus {
-	color: #272727;
-	box-shadow: none;
+  color: #272727;
+  box-shadow: none;
 }
 
 /* --------------------------------------
@@ -2201,745 +2255,865 @@ strong,
 /*---------------------------------------
    3.1 SECTION: HOME / HEADER         
 -----------------------------------------*/
+/* line 497, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .header {
-	background-size: cover;
+  background: url(/assets/dock.jpg) no-repeat center top fixed;
+  background-size: cover;
 }
 
+/* line 503, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .header .overlay-layer {
-	padding-top: 84px;
-	padding-bottom: 175px;
-	height: auto;
+  padding-top: 84px;
+  padding-bottom: 175px;
+  height: auto;
 }
 
 /* STICKY NAVIGATION AND LOGO */
+/* line 510, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .appear-on-scroll {
-	opacity: 0;
+  opacity: 0;
 }
 
+/* line 514, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation {
-	background: #ffffff;
-	min-height: 70px;
-	border: none;
-	margin-bottom: 0 !important;
-	-webkit-backface-visibility: hidden;
-	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  background: #ffffff;
+  min-height: 70px;
+  border: none;
+  margin-bottom: 0 !important;
+  -webkit-backface-visibility: hidden;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
 }
 
+/* line 524, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation .navbar-brand {
-	padding: 18px 15px;
+  padding: 18px 15px;
 }
 
+/* line 528, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation .navbar-brand img {
-	max-width: 125px;
-	-webkit-backface-visibility: hidden;
+  max-width: 125px;
+  -webkit-backface-visibility: hidden;
 }
 
+/* line 533, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation .main-navigation {
-	margin-top: 0;
+  margin-top: 0;
 }
 
+/* line 537, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation .main-navigation li a {
-	text-transform: uppercase;
-	line-height: 34px;
-	padding: 18px;
-	font-weight: 400;
+  text-transform: uppercase;
+  line-height: 34px;
+  padding: 18px;
+  font-weight: 400;
 }
 
+/* line 544, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation .login-register {
-	margin-top: 0;
+  margin-top: 0;
 }
 
+/* line 548, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation .login-register .login a {
-	text-transform: uppercase;
-	line-height: 34px;
-	padding: 18px;
+  text-transform: uppercase;
+  line-height: 34px;
+  padding: 18px;
 }
 
+/* line 554, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation .login-register .register-button {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
+/* line 558, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .sticky-navigation .login-register .register-button a {
-	padding: 10px 15px 8px 15px;
-	border-radius: 3px;
+  padding: 10px 15px 8px 15px;
+  border-radius: 3px;
 }
 
 /* ONLY LOGO */
+/* line 564, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .only-logo .navbar-header {
-	margin: auto;
-	float: none;
+  margin: auto;
+  float: none;
 }
 
+/* line 569, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .only-logo .navbar-header img {
-	max-width: 392px;
+  max-width: 392px;
 }
 
 /* INTRO */
+/* line 574, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .intro-section {
-	margin-top: 70px;
+  margin-top: 70px;
 }
 
+/* line 578, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .intro-section h5 {
-	margin-top: 15px;
-	margin-bottom: 70px;
+  margin-top: 15px;
+  margin-bottom: 70px;
 }
 
 /*---------------------------------------
    3.2 SECTION: CLIENTS LIST    
 -----------------------------------------*/
+/* line 586, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .client-logos {
-	border-bottom: 1px solid #dadfe3;
-	margin-bottom: 0;
+  border-bottom: 1px solid #dadfe3;
+  margin-bottom: 0;
 }
 
+/* line 591, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .client-logos li {
-	display: inline-block;
-	margin: 25px 25px 25px 25px;
-	vertical-align: middle;
+  display: inline-block;
+  margin: 25px 25px 25px 25px;
+  vertical-align: middle;
 }
 
+/* line 597, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .client-logos li img {
-	max-height: 125px;
-	max-width: 175px;
-	opacity: 0.6;
+  max-height: 125px;
+  max-width: 175px;
+  opacity: 0.6;
 }
 
+/* line 603, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .client-logos li img:hover {
-	opacity: 1;
-	cursor: pointer;
+  opacity: 1;
+  cursor: pointer;
 }
 
 /*---------------------------------------
    3.3 SECTION: SERVICES    
 -----------------------------------------*/
+/* line 611, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .services {
-	background: url(/stampimg/background-images/skyrise-view-3.jpg) no-repeat center top fixed;
-	background-size: cover;
-
+  background: url(/stampimg/background-images/skyrise-view-3.jpg) no-repeat center top fixed;
+  background-size: cover;
 }
 
+/* line 618, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-service {
-	padding: 40px 35px 40px 35px;
-	margin: 0 0 100px 0;
-	background: #ffffff;
-	border-top: 1px solid #eaeaea;
-	border-left: 1px solid #eaeaea;
-	border-right: 1px solid #eaeaea;
-	border-bottom: 4px solid #eaeaea;
-	border-radius: 3px;
-	-webkit-transition: all ease 0.55s;
-	transition: all ease 0.55s;
+  padding: 40px 35px 40px 35px;
+  margin: 0 0 100px 0;
+  background: #ffffff;
+  border-top: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 4px solid #eaeaea;
+  border-radius: 3px;
+  -webkit-transition: all ease 0.55s;
+  transition: all ease 0.55s;
 }
 
+/* line 631, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-service .service-icon {
-	font-size: 60px;
-	margin-bottom: 35px;
+  font-size: 60px;
+  margin-bottom: 35px;
 }
 
+/* line 636, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-service h3 {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /*---------------------------------------
    3.4 SECTION: APP BRIEF    
 -----------------------------------------*/
+/* line 643, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .brief {
-	padding-top: 80px;
-	padding-bottom: 115px;
+  padding-top: 80px;
+  padding-bottom: 115px;
 }
 
+/* line 648, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .brief .content-section {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
+/* line 652, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .brief h2 {
-	margin-bottom: 15px;
-	margin-top: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
+/* line 657, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .brief p {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
+/* line 661, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .brief .brief-image-right {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
+/* line 665, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .brief .brief-image-right img {
-	float: right;
-	width: 92%;
+  float: right;
+  width: 92%;
 }
 
+/* line 670, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .brief .brief-image-left {
-	margin-top: 25px;
-	overflow: hidden;
+  margin-top: 25px;
+  overflow: hidden;
 }
 
+/* line 675, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .brief .brief-image-left img {
-	float: left;
-	width: 95%;
+  float: left;
+  width: 95%;
 }
 
+/* line 680, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feature-list {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
+/* line 684, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feature-list li {
-	padding-top: 8px;
-	padding-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
+/* line 689, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feature-list li span {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* ACCORDION */
+/* line 694, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .panel-default {
-	border: 0;
-	border-radius: 3px;
-	margin-top: 35px;
-	display: block;
-	text-align: left;
+  border: 0;
+  border-radius: 3px;
+  margin-top: 35px;
+  display: block;
+  text-align: left;
 }
 
+/* line 702, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .panel-body {
-	border-top: 4px solid #F7F8FA !important;
+  border-top: 4px solid #F7F8FA !important;
 }
 
+/* line 706, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .panel-heading {
-	background-color: #ffffff !important;
-	border: none;
-	padding: 0;
+  background-color: #ffffff !important;
+  border: none;
+  padding: 0;
 }
 
-.panel-group .panel+.panel {
-	margin-top: 15px;
+/* line 712, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
+.panel-group .panel + .panel {
+  margin-top: 15px;
 }
 
+/* line 716, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .panel-heading .title-text {
-	line-height: 40px;
+  line-height: 40px;
 }
 
+/* line 720, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .panel-title a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
+/* line 724, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .panel-title .icon-container {
-	display: inline-block;
-	margin-right: 10px;
-	vertical-align: middle;
-	text-align: !important;
-	font-size: 16px;
-	height: 40px;
-	line-height: 40px;
-	padding-top: 1px;
-	padding-right: 10px;
-	padding-left: 10px;
-	border-top-left-radius: 3px;
-	float: left;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  text-align: !important;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-top-left-radius: 3px;
+  float: left;
 }
 
 /*---------------------------------------
    3.5 SECTION: Contact Us - Lead Form 
 -----------------------------------------*/
-
+/* line 743, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .leads {
-	background: url(/stampimg/background-images/bridge_view_high.jpg) no-repeat center top fixed;
-	background-size: cover;
+  background: url(/stampimg/background-images/bridge_view_high.jpg) no-repeat center top fixed;
+  background-size: cover;
 }
 
+/* line 749, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .checkbox_label {
-    display: block;
-    padding-left: 15px;
-    text-indent: -15px;
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
 }
+
+/* line 754, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .checkbox-input {
-    width: 13px;
-    height: 13px;
-    padding: 0;
-    margin:0;
-    vertical-align: bottom;
-    position: relative;
-    top: -1px;
-    *overflow: hidden;
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
 }
-
-
 
 /*---------------------------------------
    3.5 SECTION: STATS 
 -----------------------------------------*/
+/* line 770, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .stats {
-	background: url(/stampimg/background-images/lobby_stairs_high.jpg) no-repeat center top fixed;
-	background-size: cover;
+  background: url(/stampimg/background-images/lobby_stairs_high.jpg) no-repeat center top fixed;
+  background-size: cover;
 }
 
+/* line 776, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .stats .overlay-layer-2 {
-	padding-top: 80px;
-	padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
+/* line 781, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-stats {
-	margin-top: 40px;
-	margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
+/* line 786, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-stats .icon-container {
-	margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
+/* line 790, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-stats .icon-container span {
-	font-size: 70px;
+  font-size: 70px;
 }
 
+/* line 794, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .stats-footer .long-transparent-line {
-	margin-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 /*---------------------------------------
    3.6 SECTION: UNIQUE FEATURES 
 -----------------------------------------*/
+/* line 801, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .unique-features {
-	padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
+/* line 805, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .ipad-image {
-	margin: auto;
+  margin: auto;
 }
 
+/* line 809, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .ipad-image img {
-	width: 100%;
+  width: 100%;
 }
 
+/* line 813, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feature {
-	margin: auto;
-	padding-left: 10px;
-	padding-right: 0;
-	margin-top: 30px;
-	margin-bottom: 25px;
-	overflow: hidden;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 0;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  overflow: hidden;
 }
 
+/* line 822, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feature .icon-container {
-	margin-right: 10px;
-	padding-top: 18px;
-	float: left;
+  margin-right: 10px;
+  padding-top: 18px;
+  float: left;
 }
 
+/* line 828, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feature .icon-container span {
-	font-size: 30px;
+  font-size: 30px;
 }
 
+/* line 832, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feature .description {
-	width: 85%;
-	float: right;
+  width: 85%;
+  float: right;
 }
 
+/* line 837, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feature .description p {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 /*---------------------------------------
    3.7 SECTION: PRICING TABLE 
 -----------------------------------------*/
+/* line 844, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .pricing {
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
+/* line 848, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .pricing-table {
-	padding-left: 30px;
-	padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
+/* line 853, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-pricing {
-	background: #ffffff;
-	border-radius: 3px;
-	padding-bottom: 25px;
-	border: 1px solid #e4e7e7;
-	border-bottom: 4px solid #e4e7e7;
-	margin-bottom: 80px;
-	padding: 20px;
-	-webkit-transition: all ease 0.55s;
-	transition: all ease 0.55s;
+  background: #ffffff;
+  border-radius: 3px;
+  padding-bottom: 25px;
+  border: 1px solid #e4e7e7;
+  border-bottom: 4px solid #e4e7e7;
+  margin-bottom: 80px;
+  padding: 20px;
+  -webkit-transition: all ease 0.55s;
+  transition: all ease 0.55s;
 }
 
+/* line 865, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .package-title h3 {
-	line-height: 60px;
-	margin-top: 0;
-	margin-bottom: 0;
-	border-radius: 3px;
+  line-height: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 3px;
 }
 
+/* line 872, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .price {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 5px;
-	border-bottom: 1px solid #ececec;
-	padding-bottom: 25px;
-	padding-top: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 25px;
+  padding-top: 15px;
 }
 
+/* line 881, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .price .superscript {
-	vertical-align: super;
-	font-size: 25px;
+  vertical-align: super;
+  font-size: 25px;
 }
 
+/* line 886, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .price .month {
-	font-size: inherit;
-	display: block;
-	margin-top: 0;
-	line-height: 1;
-	font-size: 14px !important;
-	font-weight: 300;
+  font-size: inherit;
+  display: block;
+  margin-top: 0;
+  line-height: 1;
+  font-size: 14px !important;
+  font-weight: 300;
 }
 
+/* line 895, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .package-list {
-	padding-top: 10px;
-	margin-bottom: 25px;
+  padding-top: 10px;
+  margin-bottom: 25px;
 }
 
+/* line 900, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .package-list li {
-	margin-top: 12px;
-	margin-bottom: 12px;
-	border-bottom: 1px dotted #eaeaea;
-	padding-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px dotted #eaeaea;
+  padding-bottom: 10px;
 }
 
+/* line 907, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .package-list li span {
-	margin-right: 8px;
+  margin-right: 8px;
 }
 
+/* line 911, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-pricing .button {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
+/* line 915, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .highlighted {
-	margin-top: -24px;
+  margin-top: -24px;
 }
 
+/* line 919, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .highlighted .package-title h3 {
-	line-height: 84px;
+  line-height: 84px;
 }
 
 /*---------------------------------------
    3.8 SECTION: SCREENSHOTS   
 -----------------------------------------*/
+/* line 926, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .features {
-	background: url(/stampimg/background-images/bay_view_med.jpg) no-repeat top center fixed;
-	background-size: cover;
+  background: url(/stampimg/background-images/bay_view_med.jpg) no-repeat top center fixed;
+  background-size: cover;
 }
 
+/* line 932, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .features .overlay-layer-2 {
-	padding-bottom: 84px;
+  padding-bottom: 84px;
 }
 
+/* line 936, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .single-feature {
-	margin-bottom: 58px;
+  margin-bottom: 58px;
 }
 
+/* line 940, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .left-side .single-feature {
-	padding-right: 18px;
+  padding-right: 18px;
 }
 
+/* line 944, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .right-side .single-feature {
-	padding-left: 18px;
+  padding-left: 18px;
 }
 
+/* line 948, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .screenshot img {
-	display: block;
-	width: 100%;
-	height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
+/* line 954, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .screenshot img:hover {
-	cursor: crosshair;
+  cursor: crosshair;
 }
 
+/* line 958, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .owl-theme .owl-controls .owl-page span {
-	background: #ffffff;
+  background: #ffffff;
 }
 
 /*---------------------------------------
    3.9 VERTICAL TIMELINE
 -----------------------------------------*/
-
+/* line 966, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .timeline {
-	background: url(/stampimg/background-images/empty-office-high.jpg) no-repeat center top fixed;
-	background-size: cover;
-
+  background: url(/stampimg/background-images/empty-office-high.jpg) no-repeat center top fixed;
+  background-size: cover;
 }
 
-
+/* line 974, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .vertical-timeline {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
+/* line 979, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .timeline-section {
-	padding: 0;
-	padding-left: 135px;
-	padding-top: 20px;
+  padding: 0;
+  padding-left: 135px;
+  padding-top: 20px;
 }
 
+/* line 985, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .timeline-section li {
-	list-style-type: none;
-	padding: 1em;
-	margin: 0;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-	overflow: visible;
-	border-left: 2px solid #eaeaea !important;
+  list-style-type: none;
+  padding: 1em;
+  margin: 0;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  overflow: visible;
+  border-left: 2px solid #eaeaea !important;
 }
 
+/* line 995, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .timeline-section li .date {
-	display: inline-block;
-	float: left;
-	margin-left: -100px;
-	max-width: 55px;
-	margin-top: 5px;
+  display: inline-block;
+  float: left;
+  margin-left: -100px;
+  max-width: 55px;
+  margin-top: 5px;
 }
 
+/* line 1003, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .timeline-section li .icon-container {
-	display: inline-block;
-	float: left;
-	width: 42px;
-	height: 42px;
-	line-height: 42px;
-	border-radius: 50%;
-	margin-left: -38px;
-	padding-top: 2px;
+  display: inline-block;
+  float: left;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 50%;
+  margin-left: -38px;
+  padding-top: 2px;
 }
 
+/* line 1014, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .timeline-section li .info {
-	text-align: left;
-	background: #F7F8FA;
-	margin-left: 15px;
-	padding: 10px;
-	font-size: 14px;
+  text-align: left;
+  background: #F7F8FA;
+  margin-left: 15px;
+  padding: 10px;
+  font-size: 14px;
 }
 
 /*---------------------------------------
    3.10 SECTION: TEAM
 -----------------------------------------*/
+/* line 1025, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .team {
-	padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
+/* line 1029, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .team-member {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
+/* line 1033, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .team-member .social-icons {
-	opacity: 0;
-	margin-top: 5px;
-	position: relative;
-	-webkit-transition: all ease 0.55s;
-	transition: all ease 0.55s;
+  opacity: 0;
+  margin-top: 5px;
+  position: relative;
+  -webkit-transition: all ease 0.55s;
+  transition: all ease 0.55s;
 }
 
+/* line 1041, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .team-member .social-icons li {
-	display: inline-block;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 3px;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
 }
 
+/* line 1048, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .team-member .social-icons li a {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
+/* line 1052, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .team-member .social-icons li a:hover {
-	opacity: 1;
-	text-decoration: none;
+  opacity: 1;
+  text-decoration: none;
 }
 
+/* line 1057, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .team-member:hover .social-icons {
-	opacity: 1;
+  opacity: 1;
 }
 
+/* line 1061, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .member-pic {
-	border: 5px solid #ffffff;
-	border-radius: 3px;
+  border: 5px solid #ffffff;
+  border-radius: 3px;
 }
 
+/* line 1066, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .member-pic img {
-	width: 100%;
+  width: 100%;
 }
 
+/* line 1070, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .member-pic img:hover {
-	filter: sepia(10%) hue-rotate(50deg);
-	-webkit-filter: sepia(10%) hue-rotate(50deg);
-	-moz-filter: sepia(10%) hue-rotate(50deg);
-	-o-filter: sepia(10%) hue-rotate(50deg);
-	-ms-filter: sepia(10%) hue-rotate(50deg);
+  filter: sepia(10%) hue-rotate(50deg);
+  -webkit-filter: sepia(10%) hue-rotate(50deg);
+  -moz-filter: sepia(10%) hue-rotate(50deg);
+  -o-filter: sepia(10%) hue-rotate(50deg);
+  -ms-filter: sepia(10%) hue-rotate(50deg);
 }
 
+/* line 1078, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .member-details {
-	padding-top: 10px;
-	padding-bottom: 12px;
-	position: relative;
-	width: 85%;
-	margin: auto;
-	background: #ffffff;
-	border-radius: 3px;
-	margin-top: -45px;
-	z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  position: relative;
+  width: 85%;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 3px;
+  margin-top: -45px;
+  z-index: 1;
 }
 
+/* line 1090, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .member-details h5 {
-	margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 /*---------------------------------------
    3.11 SECTION: TESTIMONIALS
 -----------------------------------------*/
+/* line 1097, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .testimonials {
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
+/* line 1101, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feedback {
-	padding: 0 30px;
-	margin-bottom: 45px;
+  padding: 0 30px;
+  margin-bottom: 45px;
 }
 
+/* line 1106, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feedback .pic-container {
-	border-radius: 50%;
-	display: inline-block;
-	overflow: hidden;
-	width: 60px;
-	height: 60px;
-	border: 3px solid #ffffff;
-	background-clip: padding-box;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #ffffff;
+  background-clip: padding-box;
 }
 
+/* line 1117, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feedback .pic-container img {
-	width: 100%;
+  width: 100%;
 }
 
+/* line 1121, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feedback p {
-	font-style: italic;
-	margin-top: 10px;
-	margin-bottom: 25px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
+/* line 1127, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .feedback h5 {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /*---------------------------------------
    3.12 SECTION: CALL TO ACTION
 -----------------------------------------*/
+/* line 1134, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .call-to-action {
-    background: url(/stampimg/background-images/lobby_stairs_high.jpg) fixed no-repeat top center;
-    background-size: cover;
+  background: url(/stampimg/background-images/lobby_stairs_high.jpg) fixed no-repeat top center;
+  background-size: cover;
 }
+
+/* line 1139, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .call-to-action .overlay-layer-2 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
+/* line 1143, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .call-to-action h2 {
-	margin-top: 20px;
-	margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
+/* line 1148, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .modal-content {
-	padding: 10px 30px 30px 30px;
+  padding: 10px 30px 30px 30px;
 }
 
+/* line 1152, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .modal-content button {
-	width: 100%;
+  width: 100%;
 }
 
 /*---------------------------------------
    3.13 SECTION: CONTACT INFO
 -----------------------------------------*/
+/* line 1159, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .contact-info {
-	padding-top: 30px;
-	padding-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
 
+/* line 1164, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .contact-info .logo-container {
-	margin-top: 20px;
-	margin-bottom: 35px;
+  margin-top: 20px;
+  margin-bottom: 35px;
 }
 
+/* line 1169, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .contact-info .logo-container img {
-	filter: grayscale(1);
-	-webkit-filter: grayscale(1);
-	-moz-filter: grayscale(1);
-	-o-filter: grayscale(1);
-	-ms-filter: grayscale(1);
-	opacity: 0.6;
-	max-width: 65px;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  opacity: 0.6;
+  max-width: 65px;
 }
 
+/* line 1179, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .contact-info .icon-container {
-	font-size: 30px;
-	margin-top: 40px;
-	margin-bottom: 20px;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
+/* line 1185, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .contact-info .contact-links a {
-	padding-top: 40px;
-	padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 /*---------------------------------------
    3.14 SECTION: GOOGLE MAP
 -----------------------------------------*/
+/* line 1193, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 #google-container {
-	position: relative;
-	width: 100%;
-	height: 500px;
+  position: relative;
+  width: 100%;
+  height: 500px;
 }
 
+/* line 1199, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 #cd-google-map {
-	position: relative;
-	-webkit-transition: all ease 0.55s;
-	transition: all ease 0.55s;
+  position: relative;
+  -webkit-transition: all ease 0.55s;
+  transition: all ease 0.55s;
 }
 
+/* line 1205, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 #cd-google-map address {
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-	opacity: 0.8;
-	padding: 1em 1em;
-	color: #ffffff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  padding: 1em 1em;
+  color: #ffffff;
 }
 
 /*---------------------------------------
    3.15 SECTION: FOOTER
 -----------------------------------------*/
+/* line 1218, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .footer {
-	padding-top: 40px;
-	padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
+/* line 1223, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .footer-links li {
-	display: inline-block;
-	padding: 10px;
+  display: inline-block;
+  padding: 10px;
 }
 
+/* line 1228, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .footer-links li a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
+/* line 1232, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .social-icons li {
-	display: inline-block;
-	margin-right: 5px;
-	margin-left: 5px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
+/* line 1238, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .social-icons li a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
+/* line 1242, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/styles-1.14.css.scss */
 .social-icons li a:hover .transparent-text-dark {
-	color: #313131;
+  color: #313131;
 }
-
 /* --------------------------------------
 =========================================
    4. RESPONSIVE CSS FIXES
@@ -3298,132 +3472,154 @@ strong,
 	}
 }
 /* PRELOADER IMAGE BACKGROUND */
-
+/* line 3, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .status {
-	background-image: url(/stampimg/loader-blue.gif);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  background-image: url(/stampimg/loader-blue.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* THE OVERLAY COLORS WHICH WILL SHOW IN FRONT OF BACKGROUND IMAGES*/
+/* line 12, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .overlay-layer {
-	background: rgba(0, 5, 8, 0.0);
+  background: rgba(0, 5, 8, 0);
 }
 
+/* line 16, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .overlay-layer-2 {
-	background: rgba(82, 97, 106, 0.7);
+  background: rgba(82, 97, 106, 0.7);
 }
 
+/* line 20, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .overlay-layer-3 {
-	background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.75);
 }
 
+/* line 24, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .overlay-layer-4 {
-	background: rgba(0, 5, 8, 0.5);
+  background: rgba(0, 5, 8, 0.5);
 }
 
 /* NAVBAR AND LINK COLORS */
+/* line 29, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-	color: #008ed6;
+  color: #008ed6;
 }
 
+/* line 34, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 a {
-	color: #008ed6;
+  color: #008ed6;
 }
 
+/* line 38, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 a:hover {
-	color: #008ed6;
+  color: #008ed6;
 }
 
+/* line 42, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .border-bottom-hover:hover {
-	border-bottom-color: #008ed6;
+  border-bottom-color: #008ed6;
 }
 
+/* line 46, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .sticky-navigation .main-navigation li a:hover,
 .sticky-navigation .login-register li.login a:hover {
-	color: #008ed6;
+  color: #008ed6;
 }
 
+/* line 51, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .sticky-navigation .main-navigation li.current a {
-	color: #008ed6;
+  color: #008ed6;
 }
 
 /* INPUT FIXES */
+/* line 56, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .input-box:active,
 .textarea-box:active,
 .input-box:focus,
 .textarea-box:focus {
-	border-color: #008ed6;
+  border-color: #008ed6;
 }
 
 /* CLIENT PHOTO */
+/* line 64, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .feedback .pic-container {
-	box-shadow: 0px 0px 0px 1px #008ed6;
+  box-shadow: 0px 0px 0px 1px #008ed6;
 }
 
 /* BUTTONS*/
+/* line 70, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .standard-button,
 .navbar-register-button {
-	background: #008ed6;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYTlmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDhlZDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00a9ff), color-stop(100%, #008ed6));
-	background: -webkit-linear-gradient(top, #00a9ff 0%, #008ed6 100%);
-	background: -webkit-gradient(linear, left top, left bottom, from(#00a9ff), to(#008ed6));
-	background: linear-gradient(to bottom, #00a9ff 0%, #008ed6 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@gradient-light', endColorstr='@main-color', GradientType=0);
-	box-shadow: 0px 3px 0px #005885;
+  background: #008ed6;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYTlmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDhlZDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00a9ff), color-stop(100%, #008ed6));
+  background: -webkit-linear-gradient(top, #00a9ff 0%, #008ed6 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00a9ff), to(#008ed6));
+  background: linear-gradient(to bottom, #00a9ff 0%, #008ed6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@gradient-light', endColorstr='@main-color', GradientType=0);
+  box-shadow: 0px 3px 0px #005885;
 }
 
+/* line 83, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .standard-button:hover,
 .navbar-register-button:hover {
-	color: #ffffff;
-	background: #008ed6 !important;
-	text-decoration: none;
+  color: #ffffff;
+  background: #008ed6 !important;
+  text-decoration: none;
 }
 
+/* line 90, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .standard-button:focus,
 .navbar-register-button:focus {
-	color: #ffffff;
+  color: #ffffff;
 }
 
+/* line 95, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .standard-button:active,
 .navbar-register-button:active {
-	background: #008ed6 !important;
-	border-color: inherit !important;
-	box-shadow: none;
+  background: #008ed6 !important;
+  border-color: inherit !important;
+  box-shadow: none;
 }
 
 /* COLORED BACKGROUND AND TEXT*/
+/* line 104, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .color-bg {
-	background: #008ed6;
+  background: #008ed6;
 }
 
+/* line 108, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .colored-text {
-	color: #008ed6;
+  color: #008ed6;
 }
 
 /* COLORED BORDERS AND LINES */
+/* line 113, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .colored-line-left,
 .colored-line-right,
 .colored-line {
-	background: #008ed6;
+  background: #008ed6;
 }
 
+/* line 119, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .border-right-colored {
-	border-right: 1px solid rgba(0, 142, 214, 0.3);
+  border-right: 1px solid rgba(0, 142, 214, 0.3);
 }
 
+/* line 123, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .border-left-colored {
-	border-left: 1px solid rgba(0, 142, 214, 0.3);
+  border-left: 1px solid rgba(0, 142, 214, 0.3);
 }
 
+/* line 127, /Users/mac/heroku/wedding/vendor/assets/stylesheets/stamp/colors/blue-1.02.css.scss */
 .long-transparent-line {
-	height: 1px;
-	width: 200px;
-	background: rgba(0, 142, 214, 0.3);
-	margin: auto;
+  height: 1px;
+  width: 200px;
+  background: rgba(0, 142, 214, 0.3);
+  margin: auto;
 }
 /*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
