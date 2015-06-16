@@ -1,0 +1,100 @@
+
+a.brand img {
+	height: 48px;
+}
+
+a.subnav2 {
+	margin:0px; 
+	line-height:89px;
+}
+
+body {
+	background-color: #F9F9FB;
+}
+
+
+h3.subnav-menu {
+	margin:0px; 
+	line-height:89px;
+}
+
+h5.light-box-text {
+	text-align: center; 
+	margin:0px; 
+	padding-top: 10px;
+}
+
+li a.subnav-menu {
+	padding-top:0px; 
+	padding-bottom:0px;
+	line-height:89px;
+}
+
+.light-box {
+	width: 244px; 
+	height: 244px; 
+	margin: 10px; 
+	float: left;
+}
+
+.light-box-image {
+	box-shadow: 1px 1px 1px #D6D6D6; 
+	border-radius: 3px;
+}
+
+.light-box-overlay {
+	position: relative; top: -68.5px; 
+	border-top: 5px solid #DDDDDD;
+}
+
+.light-box-rectangle{
+	background: #FFFFFF; 
+	width: 244px; 
+	height: 63.5px; 
+	border-radius: 3px;
+}
+
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom:0px;
+}
+
+
+.navbar-inverse {
+	background-color: #323C4F;
+    border-color: #080808;
+}
+
+.equipment-row {
+	background-color:#FFFFFF;
+	margin-bottom: 10px;
+}
+
+.equipment-row-title {
+	padding-left:30px; 
+	padding-bottom:15px;
+}
+
+.subnav {
+	height: 89px; 
+	background-color:#FFFFFF; 
+	margin-bottom:0px;
+}
+
+.subnav2 {
+	height: 89px;
+}
+
+.thumbnail {
+	position:relative;
+}
+
+.thumbnail-label {
+	position:relative; 
+	z-index:100; 
+	top:-75px; 
+	width:50%; 
+	margin: 0 auto; 
+	background-color:#FFFFFF;
+}
