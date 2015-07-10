@@ -15,9 +15,9 @@
 
                         
                         <!-- LOGO -->
-                        <a class="navbar-brand" href="#">
+<!--                         <a class="navbar-brand" href="#">
                             <img src="stampimg/be-logo-nav-1.01.png" alt="">
-                        </a>
+                        </a> -->
                         
                     </div>
                     
@@ -27,14 +27,7 @@
                         <!-- NAVIGATION LINK -->
                         <ul class="nav navbar-nav navbar-left main-navigation small-text">
 
-                            <li><a href="#section2">About</a>
-                            </li>
-                            <li><a href="#section3">Get Started </a>
-                            </li>
-                            <li><a href="#section6">Case Study</a>
-                            </li>
-                            <li><a href="#section7">Testimonials</a>
-                            </li>
+
                             <!-- <li><a href="http://example.com" class="external">External Link Example</a></li> -->
                         </ul>
                         
@@ -44,7 +37,15 @@
                     <div class="" id="stamp-navigation">
                         <!-- LOGIN REGISTER -->
                         <ul class="nav navbar-nav navbar-right main-navigation small-text">
-                           <li><a href="tel:1-415-730-2710" style="font-size:14px" >Call <strong style="font-size:24px"> 1-415-730-2710 </strong> 8am-8pm</a>
+
+
+                            <li><a href="#section2">MR AND MRS IN THE MAKING</a>
+                            </li>
+                            <li><a href="#section3">WEDDING </a>
+                            </li>
+                            <li><a href="#section6">DETAILS</a>
+                            </li>
+                            <li><a href="#section7">RSVP</a>
                             </li>
                             
 
@@ -61,14 +62,7 @@
             <!-- CONTAINER -->
             <div class="container">
                 
-                <!-- ONLY LOGO ON HEADER -->
-                <div class="only-logo">
-                    <div class="navbar">
-                        <div class="navbar-header">
-                            <img src="/stampimg/be-logo-2.png" alt="">
-                        </div>
-                    </div>
-                </div>
+
                 
                 <!-- /END ONLY LOGO ON HEADER -->
                 <div class="row">
@@ -76,17 +70,19 @@
                         
                         <!-- HEADING AND BUTTONS -->
                         <div class="intro-section">
+                            <% start_date = DateTime.now %>
+                            <% end_date =  Date.parse "2015-10-17 14:46:21 +0800" %>
                             
                             <!-- WELCOM MESSAGE -->
-                            <h3 class="intro white-text" style="font-size: 1.9rem;">Introducing Mr. and Mrs. Cluong</h3>
-                            <h5 class="white-text">Wedding on October 17th 2015</h5>
+                            <h1 class = "white-text">TRACY AND TY</h1>
+                            <h1 class="intro white-text" style="font-size: 1.9rem;">October 17, 2015</h1>
+                            <h3 class="white-text"><%= (end_date-start_date).to_i %> days to go!</h3>
+                            <h3 class="white-text">#mrandmrscluong </h3>
+
+
                             
-                            <!-- BUTTON -->
-                            <div class="button">
-                                <a href="#section3" class="btn btn-primary standard-button inpage-scroll">Get Started</a>
-                            </div>
+
                            
-                            <!-- /END BUTTON -->
                             
                         </div>
                         <!-- /END HEADNING AND BUTTONS -->
