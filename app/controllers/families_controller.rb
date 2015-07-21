@@ -12,7 +12,7 @@ def index
 
     else
      found_guests = Guest.all.search(params[:search])
-	@families = Family.guest_families(found_guests)
+	   @families = Family.guest_families(found_guests).where(complete: false)
     end
 end
 
