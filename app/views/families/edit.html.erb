@@ -12,16 +12,16 @@ Click submit<br>
 	<table>
 		<tr>
 			<td>Name</td>
-			<td>Check box</td>
+			<td>Will Be There!</td>
+			<td>Can Not Attend</td>
 		</tr>
-
-
 
 
 		<% @guests.each do |guest| %>
 			<tr>
 				<td><%= guest.first_name %>&nbsp;<%= guest.last_name %></td>
 				<td><%= check_box_tag "guest_ids[]", guest.id %></td>
+				<td><%= check_box_tag "" %></td>
 			</tr>
 		<% end %>
 

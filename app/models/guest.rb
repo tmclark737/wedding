@@ -3,7 +3,7 @@ class Guest < ActiveRecord::Base
 
 
 def self.search(search)
-	where('first_name ILIKE ?', "%#{search}%")
+	where('full_name ILIKE ?', "%#{search}%")
 end
 
 end

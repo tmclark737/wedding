@@ -1,5 +1,25 @@
-Thank you Page – Guests#show
-Show what the people did
-Receive thank you message
-Return to main page link
+<div class="container">
+Confirmation Page<br>
+Please confirm that the following accurately reflect your RSVP:<br>
+ 
+
+
+<%= form_tag update_complete_families_path(:id => params[:id]), :method => :put do %>
+
+
+    <p>
+      <%= hidden_field_tag :complete, :value => true %>
+    </p>
+
+  <p>
+    <%= submit_tag %>
+  </p>
+<% end %>
+
+<%= link_to "Not Correct", edit_family_path(@family) %>
+   
+
+</div>
+
+
 

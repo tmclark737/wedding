@@ -2,7 +2,12 @@ Rails.application.routes.draw do
  
 root 'welcome#index'
 resources :welcome
-resources :families
+resources :families do
+  collection do
+    get 'thank_you'
+    put 'update_complete'
+  end
+end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
