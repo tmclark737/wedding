@@ -1,7 +1,8 @@
 class FamiliesController < ApplicationController
 
 def index
-	@families = Family.all
+	found_guests = Guest.all.search(params[:search])
+	@families = Family.guest_families(found_guests)
 end
 
 def edit
