@@ -20,8 +20,8 @@ Click submit<br>
 		<% @guests.each do |guest| %>
 			<tr>
 				<td><%= guest.first_name %>&nbsp;<%= guest.last_name %></td>
-				<td><%= check_box_tag "guest_ids[]", guest.id %></td>
-				<td><%= check_box_tag "" %></td>
+				<td><%= check_box_tag "attending_ids[]", guest.id %></td>
+				<td><%= check_box_tag "absent_ids[]", guest.id %></td>
 			</tr>
 		<% end %>
 

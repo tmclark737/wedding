@@ -2,21 +2,30 @@
 Confirmation Page<br>
 Please confirm that the following accurately reflect your RSVP:<br>
  
+<%= @family.name %><br>
+
+<% @family.guests.each do |guest| %>
+	<% if guest.response == true then %>
+		<%= guest.full_name %> will be there!<br>
+	<% elsif guest.response == false %>
+		<%= guest.full_name %> will not attend. <br>
+	<% end %>
+
+<% end %>
+
 
 
 <%= form_tag update_complete_families_path(:id => params[:id]), :method => :put do %>
-
-
     <p>
-      <%= hidden_field_tag :complete, :value => true %>
+      <%= hidden_field_tag :complete, true %>
     </p>
-
   <p>
-    <%= submit_tag %>
+  	
+    <%= submit_tag "Yes this is right!" %>
   </p>
 <% end %>
+<%= button_to "Not Correct", edit_family_path(@family), :method => :get %>
 
-<%= link_to "Not Correct", edit_family_path(@family) %>
    
 
 </div>

@@ -28,7 +28,8 @@ def show
 end
 
 def update
-	Guest.where(id: params[:guest_ids]).update_all(response: true)
+	Guest.where(id: params[:attending_ids]).update_all(response: true)
+  Guest.where(id: params[:absent_ids]).update_all(response: false)
 	redirect_to family_path(params[:id])
 
 end
