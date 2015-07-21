@@ -1,0 +1,12 @@
+
+Who is attending page – Guests#edit<br>
+Select which people are attending<br>
+Click submit<br>
+
+<%= @family.name %><br>
+
+<% @family.guests.each do |guest| %>
+
+	<%= guest.first_name %>&nbsp;<%= guest.last_name %><br>
+
+<% end %>

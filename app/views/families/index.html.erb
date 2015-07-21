@@ -1,0 +1,13 @@
+Family select page – Guests#index
+-shows zero familiers
+Enter your first name and click search <br>
+Receive a list of families <br>
+Select your family <br>
+Select <br>
+
+
+<% @families.each do |family| %>
+
+	<%= link_to family.name, edit_family_path(family) %><br>
+
+<% end %>
