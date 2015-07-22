@@ -38,7 +38,8 @@ def update_complete
 	@family = Family.find(params[:id])
 
   if @family.update(complete: params[:complete])
-    redirect_to :action => "thank_you", :controller => "families", :id => params[:id]
+    flash[:notice] = "Thank you for the RSVP for the #{@family.name} party.  We are counting down the days!"
+    redirect_to :action => "index", :controller => "welcome", :id => params[:id]
   else
     render 'show'
   end
