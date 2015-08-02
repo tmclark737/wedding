@@ -14,9 +14,9 @@
 
 //= require twitter/bootstrap
 //= require turbolinks
+
 //= require jquery
 //= require jquery_ujs
-
 
 //= require stampjs/jquery.min.js
 //= require stampjs/smoothscroll.js
@@ -27,8 +27,8 @@
 //= require stampjs/owl.carousel.min.js
 //= require stampjs/jquery.stellar.min.js
 //= require stampjs/jquery.ajaxchimp.min.js
+
 //= require stampjs/custom-1.02.js
 
 
-//= require_tree .
 

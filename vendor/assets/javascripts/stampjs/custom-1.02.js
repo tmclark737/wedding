@@ -3,16 +3,16 @@ $(window).load(function() {
     "use strict";
 
     /*---------------------------------------*/
-    /*	WOW FOR ANIMATION ON SCROLL
-	/*---------------------------------------*/
+    /*  WOW FOR ANIMATION ON SCROLL
+    /*---------------------------------------*/
     var wow = new WOW({
         mobile: false
     });
     wow.init();
 
     /*---------------------------------------*/
-    /*	NAVIGATION
-	/*---------------------------------------*/
+    /*  NAVIGATION
+    /*---------------------------------------*/
     $('.main-navigation').onePageNav({
         changeHash: true,
         currentClass: 'not-active', /* CHANGE THE VALUE TO 'current' TO HIGHLIGHT CURRENT SECTION LINK IN NAV*/
@@ -22,8 +22,8 @@ $(window).load(function() {
     });
 
     /*---------------------------------------*/
-    /*	STELLAR FOR BACKGROUND SCROLLING
-	/*---------------------------------------*/
+    /*  STELLAR FOR BACKGROUND SCROLLING
+    /*---------------------------------------*/
 
     $(window).stellar({
         horizontalScrolling: false,
@@ -53,8 +53,8 @@ $(window).resize(function() {
 
 
     /*---------------------------------------*/
-    /*	MAILCHIMP
-	/*---------------------------------------*/
+    /*  MAILCHIMP
+    /*---------------------------------------*/
 
     $('.mailchimp').ajaxChimp({
         callback: mailchimpCallback,
@@ -73,8 +73,8 @@ $(window).resize(function() {
 
 
     /*---------------------------------------*/
-    /*	CONTACT FORM
-	/*---------------------------------------*/
+    /*  CONTACT FORM
+    /*---------------------------------------*/
 
     $("#contact-form").submit(function(e) {
         e.preventDefault();
@@ -107,8 +107,8 @@ $(window).resize(function() {
 
 
     /*---------------------------------------*/
-    /*	SMOOTH SCROLL FRO INTERNAL #HASH LINKS
-	/*---------------------------------------*/
+    /*  SMOOTH SCROLL FRO INTERNAL #HASH LINKS
+    /*---------------------------------------*/
 
     $('a[href^="#"].inpage-scroll, .inpage-scroll a[href^="#"]').on('click', function(e) {
         e.preventDefault();
@@ -126,15 +126,16 @@ $(window).resize(function() {
 
 
     /*---------------------------------------*/
-    /*	NAVIGATION AND NAVIGATION VISIBLE ON SCROLL
-	/*---------------------------------------*/
-
+    /*  NAVIGATION AND NAVIGATION VISIBLE ON SCROLL
+    /*---------------------------------------*/
+    $(document).ready(function(){ 
     mainNav();
     $(window).scroll(function() {
         mainNav();
     });
 
-    function mainNav() {
+
+        function mainNav() {
         var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
         if (top > 40) $('.appear-on-scroll').stop().animate({
             "opacity": '1',
@@ -144,28 +145,11 @@ $(window).resize(function() {
             "top": '-70',
             "opacity": '0'
         });
-
-        /* if (top > 95) {
-        $('.js-login').fadeOut(20);
-        }
-        else {
-        $('.js-login').fadeIn(200);
-            
-        }
-        
-        if (top > 200) {
-        $('.js-register').fadeIn(200);
-        }
-        else {
-        $('.js-register').fadeOut(200);
-            
-        } */
     }
-
-
+    }) 
     /*---------------------------------------*/
-    /*	SCREENSHOT CAROUSEL
-	/*---------------------------------------*/
+    /*  SCREENSHOT CAROUSEL
+    /*---------------------------------------*/
 
     $("#screenshots").owlCarousel({
         navigation: false,
@@ -176,8 +160,8 @@ $(window).resize(function() {
 
 
     /*---------------------------------------*/
-    /*	SCREENSHOT LIGHTBOX
-	/*---------------------------------------*/
+    /*  SCREENSHOT LIGHTBOX
+    /*---------------------------------------*/
 
     $('#screenshots a').nivoLightbox({
         effect: 'fadeScale',
@@ -185,8 +169,8 @@ $(window).resize(function() {
 
 
     /*---------------------------------------*/
-    /*	PLACEHOLDER FIX
-	/*---------------------------------------*/
+    /*  PLACEHOLDER FIX
+    /*---------------------------------------*/
     //CREATE PLACEHOLDER FUNCTIONALITY IN IE
     $('[placeholder]').focus(function() {
         var input = $(this);
@@ -213,8 +197,8 @@ $(window).resize(function() {
     });
 
     /*---------------------------------------*/
-    /*	BOOTSTRAP FIXES
-	/*---------------------------------------*/
+    /*  BOOTSTRAP FIXES
+    /*---------------------------------------*/
 
     var oldSSB = $.fn.modal.Constructor.prototype.setScrollbar;
     $.fn.modal.Constructor.prototype.setScrollbar = function() {
@@ -245,7 +229,7 @@ $(window).resize(function() {
 
 
 /*---------------------------------------*/
-/*	GOOGLE MAP
+/*  GOOGLE MAP
 /*---------------------------------------*/
 jQuery(document).ready(function($) {
 
@@ -272,29 +256,9 @@ jQuery(document).ready(function($) {
         }]
     }];
 
-    //set google map options
-    var map_options = {
-        center: new google.maps.LatLng($latitude, $longitude),
-        zoom: $map_zoom,
-        panControl: true,
-        zoomControl: true,
-        mapTypeControl: false,
-        streetViewControl: true,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        scrollwheel: false,
-        styles: style,
-    }
-    //inizialize the map
-    var map = new google.maps.Map(document.getElementById('google-container'), map_options);
-    //add a custom marker to the map				
-    var marker = new google.maps.Marker({
-        position: new google.maps.LatLng($latitude, $longitude),
-        map: map,
-        visible: true,
-        icon: $marker_url,
-    });
+
+
 
   
 });
-
 
