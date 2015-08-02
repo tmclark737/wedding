@@ -17,9 +17,9 @@
 //= require turbolinks
 
 
-//= require stampjs/jquery.min.js
+
 //= require stampjs/smoothscroll.js
-//= require stampjs/bootstrap.min.js
+
 //= require stampjs/jquery.nav.js
 //= require stampjs/wow.min.js
 //= require stampjs/nivo-lightbox.min.js
