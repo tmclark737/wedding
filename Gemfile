@@ -29,7 +29,7 @@ gem "paperclip", "~> 4.2"
 gem 'devise', '~> 3.5.1'
 gem 'prawn'
 gem 'prawn-table'
-
+gem 'simple_form'
 
 
 # Use ActiveModel has_secure_password

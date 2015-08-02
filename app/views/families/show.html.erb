@@ -2,9 +2,8 @@
 
 <div class="container">
 Confirmation Page<br>
-Please confirm that the following accurately reflect your RSVP:<br>
+Please confirm that the following accurately reflect your RSVP:<br><br>
  
-<%= @family.name %><br>
 
 <% @family.guests.each do |guest| %>
 	<% if guest.response == true then %>

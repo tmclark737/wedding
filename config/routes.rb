@@ -2,6 +2,7 @@ Rails.application.routes.draw do
  
 root 'welcome#index'
 resources :welcome
+resources :comments
 resources :families do
   collection do
     get 'thank_you'
