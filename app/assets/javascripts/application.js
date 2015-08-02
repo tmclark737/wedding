@@ -29,6 +29,4 @@
 //= require stampjs/custom-1.01.js
 
 
-//= require_tree .
-
 //= require twitter/bootstrap
