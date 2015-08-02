@@ -16,3 +16,18 @@
 //= require jquery
 //= require turbolinks
 
+
+//= require stampjs/jquery.min.js
+//= require stampjs/smoothscroll.js
+
+//= require stampjs/jquery.nav.js
+//= require stampjs/wow.min.js
+//= require stampjs/nivo-lightbox.min.js
+//= require stampjs/owl.carousel.min.js
+//= require stampjs/jquery.stellar.min.js
+//= require stampjs/jquery.ajaxchimp.min.js
+//= require stampjs/custom-1.01.js
+
+
+//= require_tree .
+
