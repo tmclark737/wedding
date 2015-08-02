@@ -27,6 +27,3 @@
 //= require stampjs/jquery.stellar.min.js
 //= require stampjs/jquery.ajaxchimp.min.js
 //= require stampjs/custom-1.01.js
-
-
-//= require twitter/bootstrap
