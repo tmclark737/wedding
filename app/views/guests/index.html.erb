@@ -1,0 +1,29 @@
+<h1>Good Guests</h1><br>
+
+<% @good_guests.each do |guest| %>
+
+	<%= guest.first_name %> 
+	<%= guest.last_name %>
+	<%= guest.response %><br>
+
+<% end %>
+
+
+<br>
+<br>
+<h1>Bad Guests</h1><br>
+
+
+<% @bad_guests.each do |guest| %>
+
+	<%= guest.first_name %> 
+	<%= guest.last_name %>
+	<%= guest.response %><br>
+
+<% end %>
+
+
+<br>
+<br>
+<br>
+<br>

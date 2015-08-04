@@ -2,6 +2,7 @@ Rails.application.routes.draw do
  
 root 'welcome#index'
 resources :welcome
+resources :guests
 resources :comments
 resources :families do
   collection do
