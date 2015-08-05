@@ -1,16 +1,13 @@
 <div class="container">
 	<div class="row">
-	       <div class = "col-md-6 col-md-offset-3">
-
-				<%= @guests.first.family.name %><br>
-
+	       <div class = "col-md-4 col-md-offset-4">
 
 				<%= form_tag family_path(@guests.first.family.id), method: :put do %>
 				<table>
 					<tr>
 						<td>Name</td>
 						<td>Will Be There!</td>
-						<td>Can Not Attend</td>
+						<td>Cannot Attend</td>
 					</tr>
 
 
@@ -20,12 +17,22 @@
 							<td><%= check_box_tag "attending_ids[]", guest.id %></td>
 							<td><%= check_box_tag "absent_ids[]", guest.id %></td>
 						</tr>
+						<br>
 					<% end %>
+
+
 
 
 				</table>
 				<%= submit_tag 'RSVP' %>
 				<% end %>
+
+
+				<br>
+				<br>
+				<p>
+				Due to space limitations only those on the RSVP list are invited. Please contact Tracy and Ty if you are interested in bringing someone not listed.
+				</p>
 		</div>
 	</div>
 </div>
