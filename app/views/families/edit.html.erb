@@ -1,29 +1,33 @@
 <div class="container">
+	<div class="row">
+	       <div class = "col-md-6 col-md-offset-3">
 
-<%= @guests.first.family.name %><br>
-
-
-	<%= form_tag family_path(@guests.first.family.id), method: :put do %>
-	<table>
-		<tr>
-			<td>Name</td>
-			<td>Will Be There!</td>
-			<td>Can Not Attend</td>
-		</tr>
+				<%= @guests.first.family.name %><br>
 
 
-		<% @guests.each do |guest| %>
-			<tr>
-				<td><%= guest.first_name %>&nbsp;<%= guest.last_name %></td>
-				<td><%= check_box_tag "attending_ids[]", guest.id %></td>
-				<td><%= check_box_tag "absent_ids[]", guest.id %></td>
-			</tr>
-		<% end %>
+				<%= form_tag family_path(@guests.first.family.id), method: :put do %>
+				<table>
+					<tr>
+						<td>Name</td>
+						<td>Will Be There!</td>
+						<td>Can Not Attend</td>
+					</tr>
 
 
-	</table>
-	<%= submit_tag 'RSVP' %>
-	<% end %>
+					<% @guests.each do |guest| %>
+						<tr>
+							<td><%= guest.first_name %>&nbsp;<%= guest.last_name %></td>
+							<td><%= check_box_tag "attending_ids[]", guest.id %></td>
+							<td><%= check_box_tag "absent_ids[]", guest.id %></td>
+						</tr>
+					<% end %>
+
+
+				</table>
+				<%= submit_tag 'RSVP' %>
+				<% end %>
+		</div>
+	</div>
 </div>
 
 
